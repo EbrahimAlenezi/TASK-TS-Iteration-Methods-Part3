@@ -28,7 +28,7 @@ function filterHighTemperatures(temps: number[]): number[] {
  *  filterLowTemperatures(temperatures); // => [19, 18, 19, 19]
  */
 function filterLowTemperatures(temps: number[]): number[] {
-  // Your code here
+  // Your code here3
 
   return []; // replace the empty array with what you see is fit
 }
