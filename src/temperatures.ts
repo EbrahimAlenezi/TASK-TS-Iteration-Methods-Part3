@@ -17,7 +17,7 @@ const temperatures = [
 function filterHighTemperatures(temps: number[]): number[] {
   // Your code here
 
-  return []; // replace the empty array with what you see is fit
+  return temps.filter((temp) => temp >= 25); // replace the empty array with what you see is fit
 }
 
 /**
@@ -30,7 +30,7 @@ function filterHighTemperatures(temps: number[]): number[] {
 function filterLowTemperatures(temps: number[]): number[] {
   // Your code here3
 
-  return []; // replace the empty array with what you see is fit
+  return temps.filter((temp) => temp < 20); // replace the empty array with what you see is fit
 }
 
 /**
